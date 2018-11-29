@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="/css/common.css">
+        <style>
+            .header{
+                width:100%; border-bottom: 1px solid black; text-align: center;
+                padding-top: 50px; padding-bottom: 50px;
+            }
+            .header>h1{font-size: 50px;}
+            .section{
+                width:100%;
+                text-align: center;
+                padding-top: 50px;
+            }
+            .section>h2{
+                color: red;
+                font-size: 30px;
+                padding-bottom: 50px;
+            }
+            .section>p{
+                font-size: 20px;
+                padding-bottom: 30px;
+            }
+            .browser>ul{width:390px; margin: 0 auto;}
+            .browser>ul:after{content: ""; display: block; clear: both;}
+            .browser>ul>li{
+                float: left;
+                width:100px; height: 100px; margin-left: 15px; margin-right: 15px;
+            }
+            .browser>ul>li>a{
+                width:100%; height: 100%; display: block;
+            }
+            .browser>h2{
+                padding-top: 50px;
+                font-size: 30px;
+            }
+            .browser>p{
+                font-size: 15px;
+                padding-bottom: 10px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <h1>안내</h1>
+        </header>
+        <section class="section">
+            <h2>※알림※<br>현재 사용하시는 Internet Explorer의 버전이 낮습니다!</h2>
+            <p>정상적인 사이트 접속을 위해 사용하시는 Internet Explorer를 업그레이드 해주세요.<br>
+                최신 브라우저 업그레이드는 무료입니다.<br>
+                또는 Google Chrome, Firefox 브라우저를 다운로드하셔서 이용하실 수 있습니다.</p>
+                
+                
+            <section class="browser">
+               <h2>브라우저 업그레이드</h2>
+               <p>아래 브라우저를 클릭해 주세요</p>
+                <ul>
+                    <li><a href="#"><img src="img/ie.jpg" alt="ie브라우저 업그레이드"></a></li>
+                    <li><a href="#"><img src="img/chrome.jpg" alt="chrome브라우저 업그레이드"></a></li>
+                    <li><a href="#"><img src="img/firefox.jpg" alt="firefox브라우저 업그레이드"></a></li>
+                </ul>
+            </section>
+        </section>
+    </body>
+</html>
